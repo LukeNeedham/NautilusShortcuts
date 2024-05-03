@@ -61,14 +61,9 @@ def bind(action, shortcuts):
 # Sets the custom shortcuts. Edit these values to change shortcuts.
 def configure():
     # Define your custom shortcuts below!
-    bind("view.new-folder", ["<Primary><Shift>o"])
-    bind("view.rename", ["<Primary>k"])
-    bind("win.back", ["<Primary>t"])
-    bind("win.forward", ["<Primary>n"])
-    bind("win.tab-previous", ["<Primary>d"])
-    bind("win.tab-next", ["<Primary>h"])
-    bind("win.restore-tab", ["<Primary><Shift>e"])
-    bind("win.close-current-view", ["<Primary>w", "<Primary>e"])
+    
+    # Here's an example:
+    # bind("view.new-folder", ["<Primary><Shift>o"])
 
 
 # Debug function to print actions and their current shortcuts.
